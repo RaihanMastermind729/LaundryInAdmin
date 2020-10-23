@@ -1,8 +1,8 @@
 <?php
 $kategori_id = "";
-if ( isset( $_POST['kategori_id'] ) && 'Yes' === $_POST['kategori_id'] ) {}
+if ( post(('kategori_id') ) && 'Yes' === ('kategori_id') ) {}
 	
-$kategori_id = $_GET['kategori_id'];
+$kategori_id = filter_input(INPUT_GET, 'kategori_id');
 if ($kategori_id == 1){
 	print_r (')
           <div class="form-group">
