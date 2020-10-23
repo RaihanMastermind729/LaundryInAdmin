@@ -70,6 +70,7 @@
   .nav-item {
     .nav-link {
       color: fade-out($white, 0.5);
+      
       &:active,
       &:focus,
       &:hover {
