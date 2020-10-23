@@ -4,7 +4,7 @@ if ( isset( $_POST['kategori_id'] ) && 'Yes' === $_POST['kategori_id'] ) {}
 	
 $kategori_id = $_GET['kategori_id'];
 if ($kategori_id == 1){
-	print (')
+	print ("'")
           <div class="form-group">
             <div class="form-label-group">
               <input type="text" id="idtransaksimember" class="form-control" placeholder="ID Transaksi" required="required" disabled>
@@ -52,7 +52,7 @@ if ($kategori_id == 1){
 		   <a class="btn btn-primary btn-block" style="color: white" onclick="return addDataTransaksiMember()">Buat Transaksi</a>
 	';
 } elseif ($kategori_id == 2) {
-	print (')
+	print ("'")
         <input type="hidden" id="idnonmember" name="idnonmember" value="99999">
         <div class="form-group">
             <div class="form-label-group">
