@@ -1,4 +1,6 @@
 <?php
+$kategori_id = "";
+$value = isset($_POST['kategori_id']) ? $_POST['kategori_id'] : '';
 
 $kategori_id = $_GET['kategori_id'];
 if ($kategori_id == 1){
@@ -50,7 +52,7 @@ if ($kategori_id == 1){
 		   <a class="btn btn-primary btn-block" style="color: white" onclick="return addDataTransaksiMember()">Buat Transaksi</a>
 	';
 } elseif ($kategori_id == 2) {
-	echo '
+	print_r (')
         <input type="hidden" id="idnonmember" name="idnonmember" value="99999">
         <div class="form-group">
             <div class="form-label-group">
