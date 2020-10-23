@@ -80,7 +80,7 @@
        // Isikan data kedalam firebase
        var tambahMember = dbRef_add_proses.ref("Member/" + id_add);
        tambahMember.set({
-         id_member : parseInt(id_add), 
+         id_member : parseInt(id_add, RadixValue), 
          Nama : name_add,
          Email : email_add,
          No_telp : telp_add,
