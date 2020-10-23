@@ -2,7 +2,7 @@
 
 $kategori_id = $_GET['kategori_id'];
 if ($kategori_id == 1){
-	echo '
+	print_r (')
           <div class="form-group">
             <div class="form-label-group">
               <input type="text" id="idtransaksimember" class="form-control" placeholder="ID Transaksi" required="required" disabled>
