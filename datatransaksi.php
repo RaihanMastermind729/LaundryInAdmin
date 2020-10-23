@@ -25,12 +25,12 @@
 
 <body id="page-top" onload="tampilDataTransaksi1()" >
 
-  <?php include('header.php'); ?>
+  <?php include 'header.php'; ?>
 
   <div id="wrapper">
 
     <!-- Sidebar -->
-      <?php include('sidebar.php'); ?>
+      <?php include 'sidebar.php'; ?>
 
 
     <div id="content-wrapper">
